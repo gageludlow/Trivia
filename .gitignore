@@ -1,0 +1,9 @@
+.git
+.git-orig
+.vscode
+.DS_STORE
+[Bb]in
+[Dd]ist
+[Dd]ata
+[Tt]rash
+node_modules
