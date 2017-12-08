@@ -1,16 +1,16 @@
 package trivia;
 
-public Class Player {
+public class Player {
 
     private Integer id;
     private String name;
     private Integer[] questionsAsked;
+    
 
-    public Player(Integer id, String name, Integer score, Integer[] questionsAsked){
+    public Player(Integer id, String name, Integer[] questionsAsked){
 
         this.id = id;
         this.name = name;
-        this.score = score;
         this.questionsAsked = questionsAsked;
 
     }
@@ -19,7 +19,7 @@ public Class Player {
         return id;
     }
 
-    public Integer setId(){
+    public void setId(){
         this.id = id;
     }
 
@@ -27,29 +27,26 @@ public Class Player {
         return name;
     }
 
-    public String setName(){
+    public void setName(){
         this.name = name;
     }
 
-    public Integer getScore(){
-        return score;
-    }
+    
 
-    public Integer setScore(){
-        this.score = score;
-    }
 
-    public Integer getQuestionsAsked(){
+    public Integer[] getQuestionsAsked(){
         return questionsAsked;
     }
 
-    public Integer setQuestionsAsked(){
+    public void setQuestionsAsked(){
         this.questionsAsked = questionsAsked;
     }
 
-    public Integer calculateScore(){
-        return Integer;
-    }
+    public Integer calculateScore(Player player){
+        
+        
+        return Integer score;
+    };
 
     
 }

@@ -11,8 +11,9 @@ public class Question {
     private String possibleAnswer3;
     private String possibleAnswer4;
     private int correct;
+    private Integer id;
     
-    public Question(String question, String possibleAnswer1, String possibleAnswer2,String possibleAnswer3, String possibleAnswer4, int correct)
+    public Question(Integer id, String question, String possibleAnswer1, String possibleAnswer2,String possibleAnswer3, String possibleAnswer4, int correct)
     {
         
         this.question=question;
@@ -21,6 +22,7 @@ public class Question {
         this.possibleAnswer3=possibleAnswer3;
         this.possibleAnswer4=possibleAnswer4;
         this.correct=correct;
+        this.id=id;
     }
     
     
@@ -80,6 +82,16 @@ public class Question {
     public void setAnswer(int correct) {
         this.correct = correct;
     }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+    
+    
     
     
     

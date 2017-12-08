@@ -18,16 +18,19 @@ public class Trivia {
         
         Question[] triviaQuestion = new Question[NUM_OF_QUESTIONS];
         
-        triviaQuestion[0]=new Question("What is my name?","Martin","Monkey","Camel","Happy",1);
-        triviaQuestion[1]=new Question("Do you know my name?","Martin","Monkey","Camel","Happy",1);
-        triviaQuestion[2]=new Question("How can we dance? ","Martin","Monkey","Camel","Happy",2);
-        triviaQuestion[3]=new Question("Who made the duck quack?","Martin","Monkey","Camel","Happy",3);
-        triviaQuestion[4]=new Question("Why was I born?","Martin","Monkey","Camel","Happy",3);
-        triviaQuestion[5]=new Question("Where was I born?","Moon","Monkey","Camel","Happy",1);
-        triviaQuestion[6]=new Question("Who is my worst enemy?","Martin","Monkey","Camel","Happy",2);
-        triviaQuestion[7]=new Question("What the biggest Monkey?","Martin","Monkey","Camel","Happy",4);
-        triviaQuestion[8]=new Question("Who is my bestfriend?","Martin","Monkey","Gia","Happy",3);
-        triviaQuestion[9]=new Question("Who made pizza?","Martin","Monkey","Camel","Happy",4);
+        triviaQuestion[0]=new Question(0,"What is my name?","Martin","Monkey","Camel","Happy",1);
+        triviaQuestion[1]=new Question(1,"Do you know my name?","Martin","Monkey","Camel","Happy",1);
+        triviaQuestion[2]=new Question(2,"How can we dance? ","Martin","Monkey","Camel","Happy",2);
+        triviaQuestion[3]=new Question(3,"Who made the duck quack?","Martin","Monkey","Camel","Happy",3);
+        triviaQuestion[4]=new Question(4,"Why was I born?","Martin","Monkey","Camel","Happy",3);
+        triviaQuestion[5]=new Question(5,"Where was I born?","Moon","Monkey","Camel","Happy",1);
+        triviaQuestion[6]=new Question(6,"Who is my worst enemy?","Martin","Monkey","Camel","Happy",2);
+        triviaQuestion[7]=new Question(7,"What the biggest Monkey?","Martin","Monkey","Camel","Happy",4);
+        triviaQuestion[8]=new Question(8,"Who is my bestfriend?","Martin","Monkey","Gia","Happy",3);
+        triviaQuestion[9]=new Question(9,"Who made pizza?","Martin","Monkey","Camel","Happy",4);
+        
+        Gage,Cars,25,5~1;3~0;4~1,
+        
         
         System.out.println("Player 1");
         
