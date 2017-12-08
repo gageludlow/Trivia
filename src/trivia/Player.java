@@ -4,14 +4,16 @@ public class Player {
 
     private Integer id;
     private String name;
-    private Integer[] questionsAsked;
+    //private String[] questionsAsked;
+    //private Question[] questionsAsked;
+    private ArrayList<Question> questionsAsked;
     
 
-    public Player(Integer id, String name, Integer[] questionsAsked){
+    public Player(Integer id, String name){
 
         this.id = id;
         this.name = name;
-        this.questionsAsked = questionsAsked;
+        this.questionsAsked = new ArrayList<Question>(10);  //10 capactity initially
 
     }
 
@@ -34,12 +36,39 @@ public class Player {
     
 
 
-    public Integer[] getQuestionsAsked(){
+    public Question[] getQuestionsAsked(){
         return questionsAsked;
+    }
+
+    public void addQuestionAsked(Question q)
+    {
+        questionsAsked.Add(q);
     }
 
     public void setQuestionsAsked(){
         this.questionsAsked = questionsAsked;
+    }
+
+    public bool hasQuestionBeenAsked(Question q)
+    {
+        for(Question qu : questionsAsked)
+        {
+            if(qu.id == q.id)
+                return true;
+        }
+        return false;
+        
+        // if(questionsAsked.Contains(q))
+        // {
+        //     return true;
+        // }
+        // else
+        // {
+        // return false;
+        // }
+
+        
+
     }
 
     public Integer calculateScore(Player player){
