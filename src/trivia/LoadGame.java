@@ -1,6 +1,6 @@
 package trivia;
 
-public Class LoadGame {
+public class LoadGame {
 
     
 

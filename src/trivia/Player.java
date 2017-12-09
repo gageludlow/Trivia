@@ -1,4 +1,5 @@
 package trivia;
+import java.util.ArrayList;
 
 public class Player {
 
@@ -36,24 +37,24 @@ public class Player {
     
 
 
-    public Question[] getQuestionsAsked(){
+    public ArrayList<Question> getQuestionsAsked(){
         return questionsAsked;
     }
 
     public void addQuestionAsked(Question q)
     {
-        questionsAsked.Add(q);
+        questionsAsked.add(q);
     }
 
     public void setQuestionsAsked(){
         this.questionsAsked = questionsAsked;
     }
 
-    public bool hasQuestionBeenAsked(Question q)
+    public boolean hasQuestionBeenAsked(Question q)
     {
         for(Question qu : questionsAsked)
         {
-            if(qu.id == q.id)
+            if(qu.getId() == q.getId())
                 return true;
         }
         return false;
@@ -73,8 +74,9 @@ public class Player {
 
     public Integer calculateScore(Player player){
         
+        Integer score=0;
         
-        return Integer score;
+        return score;
     };
 
     

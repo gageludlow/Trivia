@@ -29,7 +29,7 @@ public class Trivia {
         triviaQuestion[8]=new Question(8,"Who is my bestfriend?","Martin","Monkey","Gia","Happy",3);
         triviaQuestion[9]=new Question(9,"Who made pizza?","Martin","Monkey","Camel","Happy",4);
         
-        Gage,Cars,25,5~1;3~0;4~1,
+        //Gage,Cars,25,5~1;3~0;4~1,
         
         
         System.out.println("Player 1");
