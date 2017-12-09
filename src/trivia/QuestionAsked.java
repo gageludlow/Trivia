@@ -11,6 +11,7 @@ public class QuestionAsked {
                 if(currentPlayer[p].getQuestionsAsked().get(q).getId() == questionID){
                     
                 }
+                
 
             }
         }
