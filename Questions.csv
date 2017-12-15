@@ -31,3 +31,15 @@ usa,6,3,What day in November is Veterans Day?,10th,13th,11th,15th
 usa,7,4,Which Island is the smallest state of the Union?,Maryland,Connecticut,Delaware,Rhode Island
 usa,8,3,What is the other main Boston newspaper along with the Herald?,Boston Times,The New Jersey Times,Globe,The New York Times
 usa,9,1,Which President had a summer retreat at Kennebunkport?,George Bush,John Adams,James Monroe,Andrew Jackson
+
+
+science, 0, 4, What vitamin is produced when a person is exposed to sunlight?, A, B ,C ,D
+science, 1, 2, Which planet in our solar system has the most oxygen?, Mars, Earth, Jupiter, Pluto 
+science, 2, 1, What is the melting point of ice?, 32, 102, 200, 10 
+science, 3, 2, How many planets in our solar system have moons?, None, Six, Four, All of them 
+science, 4, 1, Which planet is farthest from the sun?, Neptune, Saturn, Pluto, Uranus
+science, 5, 2, Which is the largest internal organ in the human body?, Stomach, Liver, Large Intestines, Heart
+science, 6, 1, Callisto is the name of a moon orbiting which planet in our solar system?, Jupiter, Pluto, Saturn, Venus
+science, 7, 4, Penicillin is used to fight what type of infections?, Viral, Spore-Based, Fungal, Bacterial
+science, 8, 3, Bronze is composed of which two metals?, Tin and Iron, Copper and Iron, Copper and Tin, Iron and Magnesium
+science, 9, 4, Cubic zirconia is notably known as the fake version of which gem?, Emerald, Ruby, Sapphire, Diamond
